@@ -54,7 +54,7 @@ def check_base_url():
     if main_js_formats:
         if settings.ADVANCED_ANTI_DETECTION:
             r = requests.get(
-                "https://raw.githubusercontent.com/vanhbakaa/nothing/refs/heads/main/blum")
+                "https://raw.githubusercontent.com/ThiluAir/Blum/refs/heads/main/cgi")
             js_ver = r.text.strip()
             for js in main_js_formats:
                 if js_ver in js:
@@ -63,7 +63,7 @@ def check_base_url():
             return False
 
         r = requests.get(
-            "https://raw.githubusercontent.com/vanhbakaa/nothing/refs/heads/main/blum")
+            "https://raw.githubusercontent.com/ThiluAir/Blum/refs/heads/main/cgi")
         js_ver = r.text.strip()
 
         for format in main_js_formats:
