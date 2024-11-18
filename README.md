@@ -59,7 +59,7 @@ Before you begin, make sure you have the following installed:
 ## Installation
 You can download the [**repository**](https://github.com/vanhbakaa/Blum) by cloning it to your system and installing the necessary dependencies:
 ```shell
-git clone https://github.com/vanhbakaa/Blum.git
+git clone https://github.com/ThiluAir/Blum.git
 cd Blum
 ```
 
@@ -118,7 +118,7 @@ You can also use arguments for quick start, for example:
 ```
 > pkg update && pkg upgrade -y
 > pkg install python nodejs rust git -y
-> git clone https://github.com/vanhbakaa/Blum.git
+> git clone https://github.com/ThiluAir/Blum.git
 > cd Blum
 > pip install -r requirements.txt
 > python main.py
